@@ -36,7 +36,7 @@ function publicUser(user) {
 async function connectDatabase() {
     await client.connect();
 
-    const db = client.db("pa2");
+    const db = client.db("pa3");
 
     users = db.collection("users");
     projects = db.collection("projects");
